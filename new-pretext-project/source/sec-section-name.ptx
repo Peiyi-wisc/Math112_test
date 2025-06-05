@@ -1,8 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>P5</title>
+<section xml:id="sec-sec1-1-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra Review</title>
 
-  <p> Algebra Algebra Algebra. The first section will review fraction computation </p>
+  <p> Skills learned: <ul>
+    <li>
+      <p> Multiplying Polynomials  </p>
+    </li>
+    <li>
+      <p>  Factoring Quadratics into linear factors  </p>
+    </li>
+    <li>
+      <p>  Algebraic operations with Rational functions.  </p>
+    </li>
+  </ul>
+  </p>
+
+  
+  <subsection xml:id="sec-sec1-1-1-name">
+    <title>Multiplying Polynomials</title>
+    <p> It is easy to get lost in the mechanics of mathematic, so it is good to have a ``picture in your head'' of what the operations represent. One way to think of multiplying two things is that they are the length (<m>L</m>) and width (<m>W</m>) of a rectangle with area <m>A = L*W.</m>
+    </p>
+    <p>
+    Try finding the area of the rectangle with length <m>(x-4)</m> and width <m>(x+3)</m> below by using the smaller boxes to record the area of each piece (Warning, some ``areas'' may be negative!):
+    </p> 
+
+    <table>
+    <title></title>
+    <tabular>
+      <row>
+          <cell> </cell> <cell bottom="minor"><m> x</m> </cell> <cell bottom="minor"> <m>-4</m></cell>
+      </row>
+      <row>
+          <cell right="minor"><m> +3 </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"><m> -4 </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+    </tabular>
+    </table>
+
+    <p> Total area: </p>
+    <p> How does the ``area'' of the rectangle relate to finding the product <m>(x-4)(x+3)</m> ? </p>
+
+
+    <p>Try finding this area:</p>
+    <table>
+    <title></title>
+    <tabular>
+      <row>
+          <cell> </cell> <cell bottom="minor"><m> x^2</m> </cell> <cell bottom="minor"> <m>-2x</m></cell> <cell bottom="minor"> <m>+5</m></cell>
+      </row>
+      <row>
+          <cell right="minor"><m> x </m></cell> <cell bottom="minor" right="minor"> </cell>  <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"> <m>+1</m></cell> <cell bottom="minor" right="minor"> </cell>  <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+      </tabular>
+    </table>
+
+    <p> Total area: How does this area relate to finding the product <m>(x+1)\left(x^{2}-2 x+5\right)</m>? </p>
+
+    <p> Here's a question for you to discuss in your groups:</p>
+    <p> Can you figure out the dimensions of the rectangle below that gives an area of <m>x^{2}-5 x+6</m>? How do you know these are the correct dimensions? </p>
+
+    <table>
+    <title>Total area: <m>x^2-5x+6</m> </title>
+    <tabular>
+      <row>
+        <cell></cell> <cell bottom="minor"> </cell> <cell bottom="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"> </cell> <cell bottom="minor" right="minor"><m>  </m> </cell>  <cell bottom="minor" right="minor"> </cell> 
+      </row>
+      <row>
+          <cell right="minor"> </cell> <cell bottom="minor" right="minor"><m>  </m> </cell>  <cell bottom="minor" right="minor"> </cell> 
+      </row>
+      </tabular>
+    </table>
+
+    <p> Fill in the blank: From the picture above, we can see that </p>
+    <me> x^2 - 5x + 6 = (<fillin/>) (<fillin/>) </me>
+
+    <p> How about finding the dimensions of the rectangle below that has area <m>2 x^{2}-7 x+5</m>? </p>
+
+    <table>
+    <title>Total area: <m>2x^2-7x+5</m> </title>
+    <tabular>
+      <row>
+        <cell></cell> <cell bottom="minor"> </cell> <cell bottom="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"> </cell> <cell bottom="minor" right="minor"><m> </m> </cell>  <cell bottom="minor" right="minor"> <m> </m> </cell> 
+      </row>
+      <row>
+          <cell right="minor"> </cell> <cell bottom="minor" right="minor"><m>  </m> </cell>  <cell bottom="minor" right="minor"> <m> </m> </cell> 
+      </row>
+      </tabular>
+    </table>
+
+    <p> So, from the picture above we see that </p>
+    <me> 2x^2 - 7x + 5 = (<fillin/>) (<fillin/>) </me>
+
+    <definition xml:id="def-factoring">
+      <statement>
+        <p>
+          This process of relating a total area to its given linear factors (i.e. the length and width of the rectangle) is called <term>factoring</term>.
+        </p>
+      </statement>
+    </definition>
+
+    <activity>
+      <p> Try factoring the trinomials below, checking your answers with your neighbors:</p>
+      <ol>
+        <li><m>x^2 +8 x+7</m></li>
+        <li><m>x^2-9 x+18</m></li>
+        <li><m>5 x^2 +9 x+4</m></li>
+      </ol>
+    </activity>
+
+  </subsection>
+
+  <subsection xml:id="subsec-sec1-1-2-name">
+    <title>Fraction Algebra</title>
+    
+  </subsection>
+  
 
 </section>
