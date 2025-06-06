@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-sec1-1-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-sec1-review" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebra Review</title>
 
   <p> Skills learned: <ul>
@@ -124,7 +124,59 @@
 
   <subsection xml:id="subsec-sec1-1-2-name">
     <title>Fraction Algebra</title>
-    
+
+    <activity>
+      <p> Recall how to add/subtract two fractions? What would you do to find the sum <m>\dfrac{2}{3}+\dfrac{1}{5}</m>? </p>
+      
+      <p> How about the difference <m>\dfrac{3}{10}-\dfrac{1}{2x}</m>? </p>
+    </activity>
+
+    <example>
+      <p> What about more complicated sums and differences with fractions involving more sophisticated expressions? For example, what might we do to compute the following (HINT: factor the polynomials to find a least common denominator): </p>
+      <me> \frac{3}{x^{2}-4}-\frac{x}{x+2} </me>
+      <me> \frac{x}{x^{2}-6 x+8}+\frac{5}{x-4} </me>
+    </example>
+
+    <activity> In your groups, try simplifying the following expressions involving algebraic sums and differences of fractions. 
+      <me> \frac{3 x}{2 x^{2}-3 x-2}-\frac{1}{2 x+1} </me>
+      <me> \frac{2}{x^{2}-9}+\frac{3}{x^{2}+5 x+6}   </me>
+      
+    </activity>
+
+    <activity> 
+      Multiplying/dividing fractions: Compute the following and briefly explain the steps involved in writing the fraction in ``simplest terms" (i.e. in writing the answer so that the numerator and denominator have no common factors).
+      <ol>
+        <li>
+          <m> \dfrac{3}{4} \cdot \dfrac{2}{15} </m> 
+        </li>
+        <li>
+          <m> \dfrac{5}{6} \div \dfrac{10}{3} </m> 
+        </li>
+      </ol>
+    </activity>
+
+    <example>
+      <p>  Extending to algebraic fractions? (Hint: Factor and treat the factors as a single `piece'.) </p>
+      <ol>
+        <li>
+          <m> \frac{x^{2}}{x^{2}-16} \cdot \frac{x+4}{x^{2}+3 x} </m>
+        </li>
+        <li>
+          <m> \frac{x-5}{x^{2}-5 x+6} \div \frac{x^{2}-25}{x^{2}-2 x-3} </m>
+        </li>
+      </ol>
+    </example>
+
+    <activity>
+      <p> Compute the following expressions and checking/discussing your solutions with your groups: </p>
+      <ol>
+        <li> <m> \frac{x^{3}}{4 x^{2}-1} \cdot \frac{2 x+1}{x} </m> </li>
+        <li> <m> \frac{x^{2}+3 x+2}{x^{3}+5 x^{2}} \div \frac{x+1}{x^{2}} </m> </li>
+        <li> <m> \frac{x}{x-6} \div \frac{x^{2}}{x^{2}-8 x+12}  </m> </li>
+        <li> <p> How about <m> \displaystyle \frac{\left(\frac{x^{2}-4}{x^{2}+5 x}\right)}{\left(\frac{x^{2}-25}{x+2}\right)} </m> ? </p> </li>
+      </ol>
+    </activity>
+
   </subsection>
   
 

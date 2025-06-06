@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sec1-quadratic" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Quadratic Equations section 1.4 1.5</title>
+  
+
+  <p> Skills learned: <ul> 
+    <li>
+      <p> Solving quadratic equations via factoring, and the zero product property.  </p>
+    </li>
+    <li>
+      <p> Solving quadratic equations via completing the square. </p>
+    </li>
+    <li>
+      <p> Solving quadratic equations via the Quadratic formula </p>
+    </li>
+    <li>
+      <p> <m> i </m> The ``imaginary number'' </p>
+    </li>
+    <li>
+      <p> Complex numbers </p>
+    </li>
+  </ul>
+  </p>
+
+  <p> Chu Li and Jose are both trying to solve the quadratic equation </p>
+  <me> x^{2}+5 x=14 </me>
+  <p> Jose does the following: </p>
+  <md> 
+    <mrow> x(x+5) = 14 </mrow>
+    <mrow> x = 14, x + 5 = 14 </mrow>
+    <mrow> x=14, x=9 </mrow>
+  </md>
+
+  <p> Chu Li does the following: </p>
+  <md>
+    <mrow> x^{2}+5 x=14 </mrow>
+    <mrow> x^{2}+5 x-14=0 </mrow>
+    <mrow> (x+7)(x-2)=0 </mrow>
+    <mrow> x+7=0, x-2=0 </mrow>
+    <mrow> x=-7, x=2 </mrow>
+  </md>
+
+  <p> Is either one correct? For incorrect solution(s) why does their proposed solution method not work? If either has a correct solution, then why does their method work: i.e. why does what they do yield actual solutions to the equation? </p>
+
+  <subsection xml:id="subsec-Solving-by-Factoring">
+    <title>Solving by Factoring</title>
+
+    <remark> <p> If <m>A*B=0</m>, then either <m>A=0</m>, or <m> B=0</m>. We call this property the <term>Zero Product Property </term>. </p> </remark>
+    
+    <example> 
+      <p> For instance, to solve <m> 2 x^{2}+1=3 x </m> , we set the equation equal to <fillin/>, try and factor and apply the <fillin/> property. </p> 
+      <p> Then we apply the <fillin/> property and solve the equation. </p>
+    </example>
+
+    <activity>
+      <p> Try solving the quadratic equation <m> 3 x^{2}-7 x=6</m> using factoring. Check your answer with your neighbor. </p>
+    </activity>
+
+    <question>
+        <choices>
+          <statement><p> Here's a question for you to consider and discuss in your groups: <m>\sqrt{81}</m> </p> </statement>
+          <choice correct="no"><statement> <p><m>\pm 9 </m></p> </statement> 
+            <feedback> <p>  incorrect </p> </feedback>
+          </choice>
+          <choice correct="yes"> <statement> <m>9</m> </statement> 
+            <feedback> <p> correct </p> </feedback>
+          </choice>
+          <choice correct="no"><statement> <m>-9</m> </statement>
+            <feedback> <p>  incorrect </p> </feedback>
+          </choice>
+          <choice>
+            <statement>
+              <p>  It depends. Sometimes the root is <m> 9</m> and sometimes it is <m>-9 </m>.   </p>
+            </statement>
+            <feedback>  <p>  incorrect  </p>  </feedback>
+          </choice>
+        </choices>
+      </question>
+
+      <activity> 
+        <p> Try solving: </p>
+        <me> x^2 = 81 </me>
+      </activity>
+      <p> One way solve this equation is to apply the <fillin/> to both sides. We know that there are <fillin/> numbers whose square is <m> 81</m>: namely <fillin/> and <fillin/>, so the solutions are <m>x=</m> <fillin/>, and <m>x=</m> <fillin/>.</p>
+      <p> How do we reconcile what your answer to <m>\sqrt{81}</m> is and what the solutions to <m>x^{2}=81</m> are? </p>
+
+      <activity>
+        <p>So how would we solve</p>
+        <me> (x-5)^{2}=36 ? </me>
+        <p> Try it in your groups. </p>
+
+        <p> How about <m>2(x+1)^{2}+3=53</m>?  </p>
+      </activity>
+
+  </subsection>
+
+  <subsection xml:id="subsec-Solving by Completing the Square">
+    <title>Solving by Completing the Square</title>
+
+    <p> If we can't factor our quadratic nicely, the nest thing we can try is to find or create an expression of the form <m>(x+ h)^{2}</m>, then <fillin/> the squared term on a side by itself, and then take the <fillin/> of both sides of the equation. </p>
+    
+    <p> If the equation does not factor and does not contain an expression of the form $(x+ h)^{2}$? We can use a technique called <term> completing the square</term> to create an expression of the form <m> (x+ h)^{2}</m>. </p>
+    
+    <p> Before we discuss the technique, we can see a pattern when we expand expressions of the form <m> (x+ h)^{2}</m>. </p>
+    
+    <p> Use the box method to expand <m>(x-6)^{2}</m>. Notice that in this case, our rectangle in fact becomes a <fillin/> because the sides have <fillin/> length. Fill in the boxes. </p>
+    <table>
+    <title></title>
+    <tabular>
+      <row>
+          <cell> </cell> <cell bottom="minor"><m> x</m> </cell> <cell bottom="minor"> <m>-6</m></cell>
+      </row>
+      <row>
+          <cell right="minor"><m> x </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"><m> -6 </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+    </tabular>
+    </table>
+    <p> What do you notice about the top right and bottom left boxes? Why does this happen? </p>
+    
+    <p> Try it again for a generic number <m> N: (x+N)^{2} </m> </p> 
+    <table>
+    <title></title>
+    <tabular>
+      <row>
+          <cell> </cell> <cell bottom="minor"><m> x</m> </cell> <cell bottom="minor"> <m> +N </m></cell>
+      </row>
+      <row>
+          <cell right="minor"><m> x </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+      <row>
+          <cell right="minor"><m> +N </m></cell> <cell bottom="minor" right="minor"> </cell> <cell bottom="minor" right="minor"> </cell>
+      </row>
+    </tabular>
+    </table>
+
+    <p> For a quadratic of the form <m> x^2+bx+c </m> we can write it in the form <m>(x+ h)^2 +</m>(stuff) the value of <m>h</m> must be <fillin/>.</p>
+
+    <example>
+      <p> Consider the equation <m>x^{2}+6 x-2=0</m>. Notice this equation does NOT factor. So, our strategy is to try and make the left hand side of the equation be of the form <m> (x+h)^{2}</m> for the appropriate choice of <m> h</m>. We start by moving the <m> 2 </m> to the other side to get the equation </p>
+      <me> x^{2}+6 x=2 </me>
+
+      <p> Let's try it again with the equation </p>
+      <me> 2 x^{2}-8 x+5=0 </me>
+    </example>
+
+    <activity>
+      <p>  Use completing the square to solve the following quadratic equations:  </p>
+      <ul>
+        <li>
+          <me>
+            x^2-18x +32=0
+          </me>
+        </li>
+        <li>
+          <me>
+            x^2+7x+3=0
+          </me>
+        </li>
+        <li>
+          <me>
+            2x+7=3x^2
+          </me>
+        </li>
+      </ul>
+    </activity>
+  </subsection>
+
+  <subsection xml:id="subsec-The Quadratic Formula">
+    <title>The Quadratic Formula</title>
+    <p> A third technique to finding the solutions to quadratic equations we call <term> the quadratic formula</term>. The quadratic formula is a result of doing the completing the square process on a generic quadratic equation. (We will not do this in class as it is time consuming. We would be happy to go through it in office hours.) </p>
+    
+    <definition xml:id="def-quadratic-formula">
+      <statement>
+        <p> Consider a quadratic equation <m> ax^2+bx+c=0</m>, where <m>a\neq 0</m>. Then the equation has two possible solutions: </p>
+        <me>  x=\frac{-b+\sqrt{b^2-4ac}}{2a}, x=\frac{-b-\sqrt{b^2-4ac}}{2a}  </me>
+        <p> These are commonly written as a single equation: </p>
+        <me> x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} . </me>
+      </statement>
+    </definition>
+    <p> This formula will work for Real and Complex solutions, but is not elegant to use. It is one of the techniques you will be expected to know coming out of this class, so here are a few problems to practice on. </p>
+
+    <activity>
+      <p>  Use the quadratic formula to find the solutions to the following equations.  </p>
+      <ol>
+        <li>  <p>  <m> 3x^2+x-10=0 </m>  </p> </li>
+        <li> <p>  <m> x^2+3x=8 </m> (There is something different about this one.) </p> </li>
+        <li>  <p>  <m> x^2+10x-56=0 </m> (Hint: <m>\sqrt{324}=18</m>) </p>  </li>
+      </ol>
+    </activity>
+
+  </subsection>
+
+  <subsection xml:id="subsec-Complex Numbers">
+    <title>Complex Numbers</title>
+    <question>
+      <p> Consider <m> x^2+1=0</m>. Does it have a solution or solutions? If so, what is unusual about the solutions? </p>
+    </question>
+
+    <definition xml:id="def-">
+      <statement>
+        <p>  We define a special number, <m>i=\sqrt{-1}</m>. We call the number <m>i</m> <term>the Imaginary unit</term>.   </p>
+      </statement>
+    </definition>
+
+    <p> This means that <m>i^2=-1</m>, which allows us to find solutions to problems where squares are negative. (Imaginary unit is a terrible name, since these numbers exist, but we are stuck with it.)</p>
+    <p> If <m>x=3i</m>, then what is <m>x^2=</m><fillin/> </p>
+    <p> If <m>x=-5i</m>, then what is <m>x^2=</m><fillin/></p>
+    <p> If <m>x^2=-16</m>, then what are the two possible (imaginary) values of <m>x</m>?  <m>x=</m><fillin/> and <m>x=</m><fillin/>. </p>
+    <p> How about <m>x^2=-7</m>?  <m>x=</m><fillin/> and <m>x=</m><fillin/>. </p>
+    <p> Just like <m>(-1)^n</m> alternates between positive and negative values, <m>i</m> also has an interesting pattern for integer powers. We know <m>i^1=\sqrt{-1}</m> is an ``Imaginary'' number, and <m>i^2=-1</m> is a Real number. We can see that powers of <m>i</m> will alternate between imaginary and real. </p>
+    <table>
+      <title></title>
+      <tabular>
+        <row>
+          <cell><m> i^1 = i</m> </cell> <cell><m> i^5 = </m> </cell> <cell><m> i^9 = </m> </cell> <cell><m> i \quad = </m> </cell>
+        </row>
+        <row>
+          <cell><m> i^2 = -1</m> </cell> <cell><m> i^6 = </m> </cell> <cell><m> i^{10} = </m> </cell> <cell><m> i \quad = </m> </cell>
+        </row>
+        <row>
+          <cell><m> i^3 = </m> </cell> <cell><m> i^7 = </m> </cell> <cell><m> i^{11} = </m> </cell> <cell><m> i \quad = </m> </cell>
+        </row>
+        <row>
+          <cell><m> i^4 = </m> </cell> <cell><m> i^8 = </m> </cell> <cell><m> i^{12} = </m> </cell> <cell><m> i \quad = </m> </cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p> Notice, Integer powers of <m>i</m> only take four values, <m>1,\, i,\,-1,</m> and <m>-i</m>. Thus, powers of <m>i</m> could be either Imaginary or Real. </p>
+    <p> We call numbers that can have both Real and Imaginary parts <term>complex numbers</term>. We call the coefficient that multiplies the <m>i</m> the ``Imaginary part'' of the complex number, and the part without the <m>i</m> the ``Real part.'' </p>
+    <table>
+      <title></title>
+      <tabular>
+        <row>
+          <cell bottom="minor" right="minor"> <p>Complex number</p> </cell> <cell bottom="minor" right="minor"> <p> Real Part </p> </cell> <cell bottom="minor" right="minor"> <p> Imaginary Part </p> </cell> 
+        </row>
+        <row>
+          <cell bottom="minor" right="minor"> <m> 3-5i </m> </cell> <cell bottom="minor" right="minor">  </cell> <cell bottom="minor" right="minor"> </cell> 
+        </row>
+        <row>
+          <cell bottom="minor" right="minor"> <m> -17 + i </m> </cell> <cell bottom="minor" right="minor">  </cell> <cell bottom="minor" right="minor"> </cell> 
+        </row>
+        <row>
+          <cell bottom="minor" right="minor"> <m> i\sqrt{13} </m> </cell> <cell bottom="minor" right="minor">  </cell> <cell bottom="minor" right="minor"> </cell> 
+        </row>
+        <row>
+          <cell bottom="minor" right="minor"> <m> \sqrt{11} - 7i </m> </cell> <cell bottom="minor" right="minor">  </cell> <cell bottom="minor" right="minor"> </cell> 
+        </row>
+      </tabular>
+    </table>
+
+    <activity>
+      <p>  Try finding the two solutions to the following equations.  </p>
+      <ol>
+        <li>
+          <p> <m> (x+3)^2=-16.  </m> </p>
+        </li>
+        <li>
+          <p> <m> x^2-10x = -29.  </m> </p>
+        </li>
+      </ol>
+    </activity>
+
+    <p> If you look carefully about each pair of complex solutions you notice that the Real parts are <fillin/>, while the Imaginary parts have the same <fillin/> but opposite <fillin/>. </p>
+    <p> We call a pair of complex numbers that have the same Real part and the Imaginary part only has a different sign <term>complex conjugates</term>. A quadratic equation with real coefficients that has complex solutions always have a pair of complex conjugate solutions. </p>
+
+    <activity>
+      <p> Try solving <m>3 x^{2}-6 x+4=0</m> by completing the square. </p>
+      <p> HINT: Recall that <m> \sqrt{-1}=i</m>, where <m>i</m> is the imaginary unit.</p>
+    </activity>
+
+    <activity>
+      <p> Extra Practice:  For the quadratic equations below, in your groups, first identify an appropriate strategy for solving them. Then solve them. </p>
+      <ol>
+        <li>
+          <p>  <m> 4 x^{2}-16 x=-28. </m>  </p>
+        </li>
+        <li>
+          <p>  <m> 6 x^{2}+3=11 x. </m>
+          </p>
+        </li>
+        <li>
+          <p>  <m> 3(x-4)^{2}-6=-12. </m> </p>
+        </li>
+      </ol>
+    </activity>
+
+  </subsection>
+
+</section>
