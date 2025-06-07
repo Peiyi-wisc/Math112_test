@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section1-other-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Other Types of Equations section 1.6</title>
+
+  <p> Skills learned: 
+    <ul> 
+    <li>
+      <p> Solving polynomial equations. </p>
+    </li>
+    <li>
+      <p> Solving rational equations. </p>
+    </li>
+    <li>
+      <p> Solving root equations. </p>
+    </li>
+    <li>
+      <p> Verifying that calculated solutions satisfy the initial equation or situation. </p>
+    </li>
+  </ul>
+  </p>
+
+  <subsection xml:id="subsec-Polynomial Equations">
+    <title>Polynomial Equations</title>
+    <p> <alert>Key idea</alert>: Our primary tool for solving polynomial equations at this point is to <fillin/> the polynomials and then use the <fillin/> property. </p>
+
+    <example>
+        <p> Solve the following polynomial equations, finding all complex solutions:</p>
+        <ol>
+            <li>
+                <p>  <m> x^{3}+6 x=7 x^{2}. </m>  </p>
+            </li>
+            <li>
+                <p>  <m> 2 x^{4}-x^{3}+x^{2}=0. </m> </p>
+            </li>
+        </ol>
+    </example>
+
+    <p> Substitution and quadratic type: </p>
+    <example>
+        <p> Find all solutions to </p>
+        <me> x^4-7x^2+12=0 </me>
+        <p> Note that it does not factor nicely as it is, and is not a quadratic. </p>
+        <p> Substitute <m>W=x^2</m> (There is nothing special about <m>W</m>, we could choose any letter.) </p>
+        <ol>
+            <li>
+                <p> What is the resulting polynomial in <m> W </m>?  </p>
+            </li>
+            <li>
+                <p> What are the solutions to the equation in terms of <m> W </m>? </p>
+            </li>
+            <li>
+                <p> For each solution in <m>W</m>, rewrite them in terms of <m>x</m> to find the solutions in <m>x</m>.</p>
+            </li>
+            <li>
+                <p> Find all solutions to </p>
+                <me> (3x-2)^2-7(3x-2)=18. </me>
+            </li>
+        </ol>
+    </example>
+
+    <activity>
+        <p> In your groups, find the solutions to the following two problems: </p>
+        <ol>
+            <li>
+                <p> <m> 6 x^{5}+x^{4}-x^{3}=0. </m> </p>
+            </li>
+            <li>
+                <p> Find all real valued solutions to the polynomial </p>
+                <me> x^6-7x^3-8=0. </me>
+            </li>
+            <li>
+                <p> <m> (3-x)^2+2(3-x)-15=0. </m> </p>
+            </li>
+        </ol>
+    </activity>
+
+  </subsection>
+
+  <subsection xml:id="subsec-Rational Equations">
+    <title>Rational Equations</title>
+    <p> <alert>Key idea</alert>: To solve rational equations, we can get rid of the <fillin/> in the equation by multiplying the equation through by <fillin/> the and then solving the resulting polynomial equation that we get from doing this. </p>
+
+    <example>
+        <p> Find the real solutions to the following equations: </p>
+        <ol>
+            <li>
+                <p> <m> \frac{8}{x}-\frac{x}{x-1}=2. </m>    </p>
+            </li>
+            <li>
+                <p>  <m> \frac{9}{x-2}+\frac{4}{x+3}+1=0. </m>
+                </p>
+            </li>
+        </ol>
+    </example>
+  </subsection>
+
+  <subsection xml:id="subsec-Radical (Root) Equations">
+    <title>Radical (Root) Equations</title>
+    <p> <alert>Key idea</alert>: To solve radical equations (i.e. equations involving roots), we must first <fillin/> the radical on one side of the equation, and then apply a power to both sides since raising both sides to that power undoes the radical. However, sometimes when doing this process, we arrive at values that are actually NOT really solutions, so when solving radical equations we always have to <fillin/> our answers.</p>
+
+    <example>
+        <p> Find the real solutions to the following equations: </p>
+        <ol>
+            <li>
+                <p> <m> \sqrt[3]{x+2}-1=4.</m> </p>
+            </li>
+            <li>
+                <p>
+                    <m> \sqrt{-x-1}-x=3. </m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\sqrt{x+5}+1=\sqrt{8-x}.</m> 
+                    (Hint: we will need to square twice)
+                </p>
+            </li>
+        </ol>
+    </example>
+
+    <activity>
+        <p>
+            In your groups, find the real solutions to the following equation:
+            <me>
+                \sqrt{2 x+3}-x=0.
+            </me>
+        </p>
+    </activity>
+
+    <activity>
+        <p> Extra practice: </p>
+        <ol>
+            <li>
+                <p>
+                    <m> \frac{x+1}{x+2}-\frac{1}{x}=1. </m>
+                </p>
+            </li>
+            <li>
+                <p> <m> \sqrt{x+2}-2x=1</m> Warning! Check your solutions! </p>
+            </li>
+            <li>
+                <p><m> \sqrt{x-2}+1=\sqrt{x+5}</m>
+                    (Hint: you will need to square twice)
+                </p>
+            </li>
+            <li>
+                <p>
+                    A four year old is pouring sand into a conical pile whose height is always half the radius. How high is the pile when it contains exactly <m>400</m> cubic inches of sand? (Hint: find the formula for volume of a cone)
+                </p>
+            </li>
+        </ol>
+    </activity>
+  </subsection>
+
+</section>

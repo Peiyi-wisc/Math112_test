@@ -65,5 +65,133 @@
         <p> Label the lengths of line segments <m>P Q</m> and <m>Q R</m> in your picture above. How can you find the length of <m> PR</m>? Find this length. </p>
     </activity>
 
+    <p> The length of the <fillin/> of right triangle <m>PQR</m> <m>PR</m> is called quite naturally the <term>distance</term> between the points <m>P</m> and <m>R</m>. In fact we can always find the distance between any two points in the plane by drawing a right triangle like the one above and finding the length of the <fillin/>.</p>
+
+    <activity>
+      <ol>
+        <li> <p> Try it for yourselves: draw the right triangles in the plane with the points below as the endpoints of the hypotenuse and then use the Pythagorean theorem to find the distance between the points.
+          <m> A(1,2) \quad B(2,3)</m>, <m> P(-2,5) \quad Q(4,9)</m> 
+        </p> </li>
+        <li>
+          <p> Label the point <m>A(-3,-5)</m> in the grid below. Find the coordinates of the point <m>B</m> that is obtained by starting at <m>A</m> and moving <m>2</m> units right and <m>4</m> units up, and then label <m>B</m> with its coordinates in the plot. Then sketch a straight line through those points.  </p>
+          <p> See that the two points <m>A</m> and <m>B</m> determine a line. Suppose we wanted to find another point <m>C</m> on this line. (Place another arbitrary point <m>C</m> on the line. The calculation works nicer if <m>C</m> is placed at integer values of <m>(x,y)</m>.) What is the value of the ratio <m>\frac{\text { rise }}{\text { run }}</m> for each of the line segments <m>A B</m> and <m>A C</m>? Would these values change if you had picked a different point <m>C</m>? </p>
+        </li>
+      </ol>
+    </activity>
+
+    <definition xml:id="def-slope">
+      <statement>
+        <p>  The ratio <m>\frac{\text { rise }}{\text { run }}</m> is called the <term>slope</term> of the line. We commonly use the letter <m>m</m> as a variable to denote it: that is, <m>m=\frac{\text { rise }}{\text{run}}</m>.  </p>
+      </statement>
+    </definition>
+
+    <p> What we have just noticed is that the line containing the points <m>A</m> and <m>B</m> has a slope with a numeric value of <m>m=\frac{\text { rise }}{\text { run }}=</m> <fillin/>. For each point <m>C</m> with coordinates <m>(x, y)</m> on the line (and <m>C</m> is not <m>A</m> )</p>
+
+    <me>
+      m=\frac{\text { rise }}{\text { run }}\mbox{ thus, }2=\frac{y+5}{x+3}
+    </me>
+
+    <p> We can multiply both sides of the equation by the denominator to rewrite the equation as </p>
+    <me>
+      y+5=2(x+3)
+    </me>
+
+    <p> The form of the equation above is called the <term>point-slope form</term> because the equation shows that the line contains the point <m>A(-3,-5)</m> and has slope <m>m=2</m>. We can solve the equation for <m>y</m> to get what's called the <term>slope intercept form</term>:</p>
+    <me> y=2 x+1 </me>
+    <p> This is called the slope intercept form because written this way, we readily identify the slope as <m>m=2</m> and the <term><m>y</m>-intercept</term> (i.e. the point at which <m>x=0</m> and where the line crosses the <m>y-</m>axis) as <m>b=1</m>.</p>
+
+    <activity>
+      <p> In your groups, try the following: Suppose we wanted to find the equation of the line containing the points <m>A(3,4)</m> and <m>B(6,-8)</m>. Draw a picture below showing the two points and then label another arbitrary point on the line with coordinates <m>\mathrm{P}(x, y)</m>. </p>
+      <ul>
+        <li>
+          <p>  What's the rise and run between <m>A</m> and <m>B</m>? What does this tell you about the numerical value of the slope of the line?  </p>
+        </li>
+        <li>
+          <p>
+            Write the equation of the line. You can leave your answer in point-slope form.
+          </p>
+        </li>
+      </ul>
+    </activity>
+
+    <p> Let's think about some properties of lines to finish this lesson with. Parallel and Perpendicular lines. </p>
+
+    <definition xml:id="def-parallel">
+      <statement>
+        <p>
+          We say two lines are <term>parallel</term> if they never intersect.
+          In the cartesian plane, two lines are parallel if their slopes are equal, but have different <m>y</m>-intercepts, or, equivalently for any <m>x</m>-value, the lines have a different <m>y</m>-value.
+        </p>
+      </statement>
+    </definition>
+    
+    <p> For example, consider the line <m>y+1=-\frac{1}{2}(x-6)</m>. If the point <m>(-3,5)</m> is not on the line (which I will leave to you to doublecheck). Then the line parallel to the original line through the point <m>(-3,5)</m> has slope <m>m=-\frac{1}{2}</m> and equation: </p>
+    <me> y-5=-\frac{1}{2}(x+3). </me>
+
+    <activity>
+      <p> Consider the line <m>y-7=-3(x+2)</m>. </p>
+      <ol>
+        <li>
+          <p>  What is the slope of the line?  </p>
+        </li>
+        <li>
+          <p>  What is one point that is on the given line?  </p>
+        </li>
+        <li>
+          <p>  Is the point <m>(-2,-3)</m> on the given line?  </p>
+        </li>
+        <li>
+          <p>  What is the equation of the line through <m>(-2,-3)</m> parallel to the original line?  </p>
+        </li>
+      </ol>
+    </activity>
+
+    <definition xml:id="def-perpendicular">
+      <statement>
+        <p>
+          We say that two lines are <term>perpendicular</term> if they meet at a right angle.
+          
+          In the cartesian plane, this is equivalent to one line having slope <m>m</m> and the other having slope <m>-\frac{1}{m}</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <p> For example, consider the line <m>y+5=7(x-1)</m>. Then the line perpendicular to the original line through the point <m>(11,2)</m> has slope <m>m=-\frac{1}{7}</m> and equation: </p>
+    <me> y-2=-\frac{1}{7}(x-11). </me>
+
+    <activity>
+      <p> Consider the line <m>y-\frac{1}{2}=\frac{3}{5}(x+\sqrt{6})</m>. </p>
+      <ol>
+        <li>
+          <p>  What is the slope of the line?  </p>
+        </li>
+        <li>
+          <p>  What is one point that is on the given line?  </p>
+        </li>
+        <li>
+          <p>
+            What is the equation of the line through <m>(2,5)</m> perpendicular to the original line?
+          </p>
+        </li>
+      </ol>
+    </activity>
+
+    <p> Notice that we do not need to check that for perpendicular lines, we do not need to check that the second point is on the line. These two lines are guaranteed to intersect, and will only intersect once. The tools used to find the intersection will be covered later in the course. </p>
+    <p> Summary: We see that we can find the equation of a line by the slope and any point <m>(x_0,y_0)</m> on the line using the point-slope form of the equation. </p>
+    <me> y-y_0=m(x-x_0).</me>
+    <p> We can get the slope from being given any two points on the line, or being given a slope, being told that the line is parallel to a given line, or perpendicular to a given line.</p>
+
+    <activity>
+      <p> Extra Practice:</p>
+      <ol>
+        <li>
+          <p> Find the equation of the line that is parallel to <m>6 x-2 y=4</m> that passes through <m>(1,2)</m>. </p>
+        </li>
+        <li>
+          <p>  Now find the equation of the line perpendicular to <m>y=-3 x+2</m> that passes through <m>(1,1)</m>. </p>
+        </li>
+      </ol> 
+    </activity>
+
 
 </section>

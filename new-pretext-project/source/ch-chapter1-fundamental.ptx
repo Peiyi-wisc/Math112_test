@@ -13,4 +13,6 @@
   <xi:include href="sec-section1-quadratic.ptx" />
 
   <xi:include href="sec-section1-geometry.ptx" />
+
+  <xi:include href="sec-section1-other-equations.ptx" />
 </chapter>
