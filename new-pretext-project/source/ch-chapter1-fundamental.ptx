@@ -7,8 +7,10 @@
     <p> This is the preparation section, for pre-algebra knowledge review. </p>
   </introduction>
 
-  <!-- include sections -->
-  <xi:include href="sec-section1-review.ptx" />
 <!-- include sections -->
+  <xi:include href="sec-section1-review.ptx" />
+
   <xi:include href="sec-section1-quadratic.ptx" />
+
+  <xi:include href="sec-section1-geometry.ptx" />
 </chapter>

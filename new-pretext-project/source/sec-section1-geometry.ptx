@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section1-geometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A Review of Coordinate Geometry section 1.1 1.3</title>
+
+  <p> Skills learned: 
+    <ul> 
+    <li>
+      <p> Plotting points in the plane. </p>
+    </li>
+    <li>
+      <p> Finding distances and midpoints of points in the plane. </p>
+    </li>
+    <li>
+      <p> Finding slopes of lines. </p>
+    </li>
+    <li>
+      <p> Finding equations of lines. </p>
+    </li>
+    <li>
+      <p> Finding Parallel and Perpendicular lines. </p>
+    </li>
+  </ul>
+  </p>
+
+  <p> Try plotting the line segment with endpoints <m> A(1,2)</m> and <m> B(3,6)</m> on the coordinate grid below: </p>
+  
+  <p> Try locating the point that is in the <em>middle</em> of this line segment: i.e. the point <m>C</m> on the line segment <m>A B</m> such that the length of the segment <m>A C</m> is the same as the length of the segment <m>CB</m>. Use your intuition to estimate the coordinates of the midpoint <m>C</m>. Does the location of this <term>midpoint</term> make sense geometrically and numerically? </p>
+  <p> There is nothing special about the previous example. It turns out that we can always find the midpoint by using similar reasoning and thinking. So since this is the case try filling in the blanks of the statement below:  </p>
+  <p> To find the midpoint of a line segment with endpoints <m> A</m> and <m>B</m>, we find the <fillin/> of the <m>x</m>-coordinates of these points and the <fillin/> of the <m>y</m>-coordinates of the two points since the <fillin/> represents the <em>middle</em> of the <m>x</m>-coordinates and <m>y</m>-coordinates between <m>A</m> and <m>B</m>.  </p>
+
+  <activity>
+      <p> On your own, try finding the midpoints of the segments below: </p>
+      <ul>
+        <li>  <p> <m> A(4,5)</m> and <m> B(10,9)</m> </p>  </li>
+        <li>  <p> <m> M(-2,-3)</m> and <m> N(5,1)</m> </p>  </li>
+        <li>  <p> <m> P(-9,-4)</m> and <m> Q(-3,4)</m> </p>  </li>
+      </ul>
+    </activity>
+
+    <p> Consider right triangle <m>A B C</m> below. How can we find the length of the hypotenuse <m>A C</m> ? Find this length.</p>
+    <figure>
+    <caption> </caption>
+    <image xml:id="right-triangle-ABC" width="100%">
+        <description><p>right triangle</p></description>
+        <latex-image>
+        \begin{tikzpicture}
+        \coordinate (a) at (0,0);
+        \coordinate (b) at (3,0);
+        \coordinate (c) at (3,4);
+        \draw (a) -- (b)node[midway, below]{3} -- (c)node[midway,right]{4} -- (a)node[midway,left, above]{}; % Triangle.
+
+        \draw (a) node[anchor=east,align=center] {A};
+        \draw (b) node[anchor=west,align=center] {B};
+        \draw (c) node[anchor=south]{C};
+        \end{tikzpicture}
+        </latex-image>
+    </image>
+    </figure>
+
+    <activity>
+        <p>In your groups try the following:</p>
+        <p> Plot the points <m>P(-2,-3), Q(1,-3)</m>, and <m> R(1,1)</m> in the grid below. Then draw in triangle <m>P Q R</m>. What type of triangle is it? How do you know? </p>
+        
+        <p> Label the lengths of line segments <m>P Q</m> and <m>Q R</m> in your picture above. How can you find the length of <m> PR</m>? Find this length. </p>
+    </activity>
+
+
+</section>
