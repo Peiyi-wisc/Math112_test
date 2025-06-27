@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section3-Graphing-Polynomial-Rational-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Graphing Polynomial and Rational functions section 3.6 and 3.7</title>
+
+  <p> Skills learned: 
+    <ul> 
+      <li> <p> Use everything we built from 3.6 and 3.7 to graph rational functions. </p> </li>
+    </ul>
+  </p>
+
+  <remark>
+    <p> We can now sketch a graph of rational functions since we have all of the tools in place to do so. To graph rational functions, we must do the following: </p>
+    <ol>
+        <li> <p> Factor and cancel any <fillin/>. </p> </li>
+        <li> <p> Find all of the <fillin/> of the function (i.e. the <m>x</m>-intercepts). </p> </li>
+        <li> <p> Find the <fillin/> intercept of the function. </p> </li>
+        <li> <p> Find all of the <fillin/> asymptotes. </p> </li>
+        <li> <p> Find all of the <fillin/> or <fillin/> asymptotes (if there are any). </p> </li> 
+        <li> <p> Do a <fillin/> to test where the function is positive or negative (We show how to do this next section). </p> </li>
+        <li> <p> Use the <fillin/> from step (1), the <fillin/> from step (2), the <fillin/> from steps (3) and (4) and the fact that graphs must approach their <fillin/> as <m>x\to \pm \infty</m> to draw the graph. </p> </li>
+    </ol>
+  </remark>
+
+  <activity>
+    <p> Sketch the rational functions below. {Note: <m>x^3+B^3=(x+B)(x^2-Bx+B^2)</m>} </p>
+    <ol>
+        <li>
+            <p>  <m> f(x)=\dfrac{x^{3}+8}{ x^{2}+x-2}. </m> </p>
+        </li>
+        <li>
+            <p> <m> g(x)=\dfrac{4 x^{2}+4 x+1}{x^{2}-2 x-3}. </m> </p>
+        </li>
+    </ol>
+  </activity>
+
+
+
+</section>

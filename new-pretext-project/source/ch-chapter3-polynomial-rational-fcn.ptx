@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter3-polynomial-rational-fcn" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial and Rational Functions</title>
+
+
+  <xi:include href="sec-section3-Polynomial-Rational-Inequalities.ptx" />
+
+  <xi:include href="sec-section3-Graphing-Polynomial-Rational-functions.ptx" />
+
+  <xi:include href="sec-section3-division-factoring.ptx" />
+
+  <xi:include href="sec-section3-rational.ptx" />
+</chapter>

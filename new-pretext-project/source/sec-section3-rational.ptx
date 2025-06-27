@@ -1,0 +1,144 @@
+<section xml:id="sec-section3-Rational-Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Rational Functions section 3.6</title>
+<p>
+    Skills learned
+</p>
+
+<ul>
+    <li>
+        <p> Finding zero(s) of rational functions </p>
+    </li>
+
+    <li>
+        <p> Finding asymptotes of rational functions </p>
+    </li>
+
+    <li>
+        <p>
+            Sketching rational functions
+        </p>
+    </li>
+</ul>
+
+<p> <term>Key Idea</term>
+We call functions that can be written as 
+<me>
+    f(x)=\dfrac{a_nx^n+\cdots+a_2x^2+a_1x+a_0}{b_mx^m+\cdots+b_2x^2+b_1x+b_0}
+</me>
+rational functions. </p>
+<p> A <alert>rational function</alert> is a function that is a ratio (i.e. fraction) of two <fillin/>. </p>
+<p> Asymptotes: We say a graph of a function, <m>y=f(x)</m>, has a <fillin/> asymptote at <m>x=c</m> if <m>y\to</m> <fillin/> or <m>y\to</m> <fillin/> as <m>x\to c</m> from one side or the other. We say a graph of a function, <m>y=f(x)</m>, has a <fillin/> asymptote of <m>y=b</m> if <m>y\to b</m> as either <m>x\to</m> <fillin/> or <m>x\to</m> <fillin/>. </p>
+
+<example>
+    <statement>
+        <p>
+            Use transformations to graph the rational functions below and state any vertical and horizontal asymptotes.
+            (Use the <m>f(x)=Q(x)+\dfrac{R(x)}{D(x)}</m> form to do the transformation.)
+            <ol>
+                <li>
+                    <p>
+                        <m>f(x)=\dfrac{2x+5}{x+3}=-\dfrac{1}{x+3}+2</m> (Hint: Start with <m>y=\dfrac{1}{x}</m>)
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>g(x)=\dfrac{-x^2+4x-2}{x^2-4x+4}=\dfrac{2}{(x-2)^{2}}-1</m>. (Hint: Start with <m>y=\dfrac{1}{x^2}</m>)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</example>
+
+<remark>
+    <p> To find vertical asymptotes of rational functions of the form <m>f(x)=\frac{p(x)}{q(x)}</m>, we look for places where <fillin/><m>=0</m> but <fillin/><m>\neq 0</m>.
+    (Note: We do this <em>after simplifying</em>.) We are also interested in the zeroes (where the graph touches the <m>x</m>-axis).
+    This is where <fillin/><m>=0</m> but <fillin/><m>\neq 0</m>.(Note: We do this <em>before simplifying</em>.) </p>
+</remark>
+
+
+<example>
+    <statement>
+        <p>
+            Find the zero(es) and all vertical asymptotes for the functions below:
+            <ol>
+                <li>
+                    <p>
+                        <m>f(x)=\dfrac{x^{2}}{x^{2}-1}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>g(x)=\dfrac{x^{2}+1}{x^{3}-16 x}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>h(x)=\dfrac{x^{3}-3x^2-4x}{x^{2}-7 x+12}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</example>
+
+<p>
+</p>
+
+<remark>
+    <p> To find what, if anything, is a horizontal asymptote of <m>f(x)=\frac{p(x)}{q(x)}=\frac{a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+a_{0}}{b_{m}x^{m}+b_{m-1}x^{m-1}+\cdots+b_{0}}</m> in a systematic manner, we divide the top and bottom by the largest power of <m>x</m> in the denominator.
+    Then we let “<m>x\to +\infty</m>.” (and also <m>x\to -\infty</m>, but that leads to the same thing for rational functions) Anything with an <m>x</m> on the bottom shrinks to <m>0</m> and we have three possible options. </p>
+    <ol>
+    <li> 
+        <p> 
+            <m>f(x)\to \dfrac{0}{b_m}=0</m>The horizontal asymptote is <m>y=0</m>. (Note: look at the powers, <m>n \lt m</m>) 
+        </p> 
+    </li>
+    <li>
+        <p> <m>f(x)\to \dfrac{a_{n}}{b_m}</m> The horizontal asymptote is the ratio of the leading coefficients. (Note: look at the powers, <m>n=m</m>) </p>
+    </li>
+    <li> 
+        <p> <m>f(x)\to \dfrac{a_{n}x^{n-m}}{b_m}\to +\infty</m> or <m>-\infty</m> There is no horizontal asymptote. We look at the signs of the remaining pieces to determine the end behavior.
+        (Note: look at the powers, <m>n\gt m</m>)  
+        </p>
+    </li>
+    </ol>
+    <p> ***If the top power is <em>exactly</em> one higher than the bottom power, <m>n=m+1</m>, we say the rational function has a “slant asymptote” that is equal to the line of the quotient, <m>Q(x)</m> after polynomial division. *** </p>
+</remark>
+
+
+<example>
+    <statement>
+        <p>
+            For the rational functions below, find the zero(es) and equation(s) of all vertical, horizontal and slant asymptotes.
+            <me>f(x)=\dfrac{2x^3-5x^2-3x}{x^2-3x+2}</me>
+        </p>
+    </statement>
+</example>
+
+<activity>
+<p>For the rational functions below, find the zero(es) and equation(s) of all vertical, horizontal and slant asymptotes.</p>
+<ol>
+    <li>
+        <p>
+            <m>f(x)=\dfrac{3 x^3-6 x^{2}}{x^{2}-9}</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>g(x)=\dfrac{2x^2-10x+12}{3x^{2}+4x+1}</m>
+        </p>
+    </li>
+
+    <li>
+        <p>
+            <m>h(x)=\dfrac{3x^2+12}{2x^3+5x^2+3x}</m>
+        </p>
+    </li>
+</ol>
+</activity>
+</section>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section3-division-factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Division and Factoring of Polynomial Functions section 3.4 and 3.5 </title>
+
+  <p> Skills learned: 
+    <ul> 
+      <li> <p> 3.4: Apply the Rational Zero Theorem and check if a potential rational zero is a zero of a given polynomial. </p> </li>
+      <li> <p> 3.5: Use the fundamental theorem of Algebra, Zeros theorem (and the Conjugate zeros theorem) to fully factor given polynomials. </p> </li>
+    </ul>
+  </p>
+
+  <activity>
+    <ol>
+        <li> <p> Consider the polynomial function <m>f(x)=(3x-1)(x+5)(2x-3)</m>. Without expanding the product, what will the constant term of the polynomial be? How did you find it? (Hint: the constant term has no <m>x</m>'s) </p> </li>
+        <li> <p> Without expanding the product, what will the leading term be? What is the degree of the polynomial? What is the leading coefficient of the polynomial? How did you find it? (Hint: the leading term has the most possible <m>x</m>'s) </p> </li>
+        <li> <p> What are the zeroes of <m>f</m> ? </p> </li>
+        <li> <p> Make a list of all the possible factors of the constant term of the polynomial. Don't forget about the negative factors! </p> </li>
+        <li> <p> Make a list of all the possible factors of the leading coefficient. Don't forget about the negative factors! </p> </li>
+        <li> <p> Now make a list of all possible ratios (i.e. fractions) of the form <m>\frac{\text { factor of constant term }}{\text { factor of leading coefficient }}</m>. Again, don't forget the negative ratios in your list! </p> </li>
+        <li> <p> Do any of the ratios you found in part (<m>f</m>) appear as zeroes of the function that you noted in part (c)? Is this a coincidence? Why or why not? </p> </li>
+    </ol>
+  </activity>
+
+  <remark>
+    <term> Rational Root Theorem </term>
+    <p> What we have just seen is that <term> IF</term> the polynomial function <m>y=f(x)</m> has rational roots (i.e. numbers that are ratios of two integers), then those rational roots MUST be of the form <m>\dfrac{\text{ factors of} \qquad }{\text{ factors of} \qquad} </m>. This result is called the <term>rational root theorem</term>.</p>
+    <p> Thus, to find all zeroes: 
+        <ol>
+            <li> <p> Make a list of all of possible rational roots. </p> </li>
+            <li> <p> Test them by evaluating the function at these numbers. </p> </li>
+            <li> <p> Once you find a zero, use a division algorithm to turn the original polynomial into a product of two simpler polynomials <m> Q(x)(x-c)</m>, where <m>Q(x)</m> is the quotient for the division at that point. (Note: if you use synthetic division, you can do step 2 and 3 in one calculation.) </p> </li>
+            <li> <p> Repeat the process on the new <m>Q(x)</m> from Step 3. </p></li>
+            <li> <p> Once we have found the rational zeroes we can start thinking about the irrational zeroes and complex zeros. (If we get to a quadratic times linear factors we can apply past techniques to find the remaining roots of the quadratic.) </p> </li>
+        </ol>
+    </p>
+  </remark>
+
+  <example>
+    <ol>
+        <li>
+            <p> List all <term>possible</term> rational zeroes of the polynomial function </p>
+            <me> f(x)=4 x^{3}+8 x^{2}-11 x+3. </me>
+        </li>
+        <li> <p>Use your list in part (a) to test for and find ONE rational zero (<m>c</m> such that <m>f(c)=0</m>), and do a division to write the result as a product of the quotient (a lower degree polynomial) times the related binomial <m>f(x)=Q(x)\cdot(x-c)</m>. </p> </li>
+        <li> <p> In this case, <m>Q(x)</m> is a quadratic. Use any tool we have developed to factor <m>Q(x)</m> and write <m>f(x)</m> as a product of linear factors. </p></li>
+        <li> <p> List all <term>possible</term> rational zeroes of the polynomial function </p> 
+            <me> g(x)=2 x^4 - 3 x^3 - 19 x^2 + 21 x + 35.</me> 
+        </li>
+        <li> <p> Use your list above to test for and find ONE rational zero, <m>c_1</m>, and write <m>g(x)</m> as a product <m>g(x)=Q_1(x)\cdot(x-c_1)</m>. </p> </li>
+        <li> <p> List all possible rational zeros of <m>Q_1(x)</m> from the prior step. (This list will not be larger than the list for <m>g(x)</m>, and may be smaller.) </p></li>
+        <li> <p> Use this second list to find one rational zero, <m>c_2</m>, for <m>Q_1(x)</m>, perform the relevant division, and write <m>Q_1(x)=Q_2(x)(x-c_2)</m>. </p> </li>
+        <li> <p> Write <m>g(x)</m> as a product <m>g(x)=Q_2(x)\cdot(x-c_2)(x-c_1)</m>.</p> </li>
+        <li> <p> Use any technique to factor <m>Q_2(x)</m> into linear factors, and write <m>g(x)</m> as a product of four linear factors (and possibly a constant). </p> </li>
+    </ol>
+  </example>
+
+  <activity>
+    <ol>
+        <li>
+            <p> Use factoring techniques and/or the rational root theorem to completely factor the polynomial function <m>f(x)=x^{4}-13 x^{2}+36</m>. </p>
+        </li>
+        <li> <p> Graph the function <m>y=f(x)</m> on the axes below: </p> </li>
+        <li> <p> List all <term>possible</term> rational zeroes of the polynomial function </p>
+             <me> h(x)=x^{3}+2 x^{2}-3 x-10. </me>
+        </li>
+        <li> <p> Use your list above to test for and find ONE rational zero, $c$, and write <m>h(x)</m> as a product <m>h(x)=Q(x)\cdot(x-c)</m>. </p></li>
+        <li> <p> Use any technique to factor <m>Q(x)</m> into linear factors, and write <m>h(x)</m> as a product of linear factors (and possibly a constant). </p></li>
+    </ol>
+  </activity>
+
+  <p> <term> The Fundamental Theorem of Algebra</term>. </p>
+  <theorem xml:id="thm-fundamental-theorem-of-algebra">
+    <statement>
+        <p>
+            <term> The Fundamental Theorem of Algebra </term> Every polynomial <m>P(x)</m> of degree <m>n\geq 1</m>
+            <me>P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots +a_1x+a_0\,\,a_n\neq0</me>
+            has at least one complex root (zero).
+        </p>
+    </statement>
+  </theorem>
+
+  <p>  Since real numbers are complex numbers, this is true for all polynomials we have looked at. </p>
+  
+  <theorem xml:id="thm-Complete Factorization Theorem">
+    <statement>
+        <p>
+            <term>Complete Factorization Theorem </term> If <m>P(x)</m> is a polynomial of degree <m>n\ge 1</m>, there exist complex numbers <m>a,\,c_1,\,c_2,\,\dots,\,c_n</m> with <m>a\neq0</m> such that 
+    <me>P(x)=a(x-c_1)(x-c_2)\cdots(x-c_n)</me> </p>
+    <p> Note: the <m>c_n</m> may not all be distinct (different).</p>
+    </statement>
+  </theorem>
+  <p> Now we have seen how to find these based on finding the roots (zeros) of the polynomial. We can say this in general with a Theorem </p>
+  <theorem xml:id="thm-Zeros Theorem">
+    <statement>
+        <p>
+            <term> Zeros Theorem </term> Every polynomial of degree <m>n\ge 1</m> has exactly <m>n</m> roots (zeros), provided a zero of multiplicity <m>k</m> is counted <m>k</m> times.
+        </p>
+    </statement>
+  </theorem>
+
+  <remark>
+    <p> If a polynomial, <m>P(x)</m> has a root at <fillin/>, then <fillin/> is a factor of <m>P(x)</m>.</p>
+    <p> If a polynomial, <m>P(x)</m> has a repeated root at <fillin/>, with multiplicity <m>k</m>, then <fillin/> is a factor of <m>P(x)</m>. </p>
+    <p> If a polynomial has <em>real coefficients</em>, then zeros always come in complex conjugate pairs. So one complex root <m>a+bi</m> means having a second complex conjugate root <m>a-bi</m>. (Note: we will not ask exam questions about complex roots for polynomials higher than quadratic (<m>n=2</m>).) </p>
+  </remark>
+
+<example>
+  <statement>
+    <p>
+      You may leave the polynomials in factored form
+      <ol>
+        <li>
+          <p>
+            Find a polynomial function of least possible degree with real coefficients that has roots <m>-1+3i ,\, 4</m> and a repeated root of 5 with multiplicity 2.
+            What is the degree of the polynomial?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the polynomial function <m>f</m> of least possible degree with real coefficients that has roots <m>-2</m>, a repeated root of <m>\frac{1}{2}</m> with multiplicity 3 , and a repeated root of 6 with multiplicity of 2 where <m>f(0)=80</m>.
+            What is the degree of the polynomial?
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+</example>
+  
+
+<ol>
+  <li>
+    <p>
+      Find a polynomial function of least possible degree with real coefficients that has roots <m>- i,\, 1</m> and a repeated root of <m>\sqrt{3}</m> with multiplicity 2.
+      What is the degree of the polynomial?
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Find a polynomial function <m>g(x)</m> of least possible degree with real coefficients that has roots <m>- 5,\, 1</m> and a repeated root of <m>\sqrt{3}</m> with multiplicity 2 where <m>g(0)=-12</m>.
+      What is the degree of the polynomial?
+    </p>
+  </li>
+</ol>
+
+</section>

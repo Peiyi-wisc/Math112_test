@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section3-Polynomial-Rational-Inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Polynomial and Rational Inequalities section 3.7</title>
+
+  <p> Skills learned: 
+    <ul> 
+      <li> <p> Use linear factors and sign charts to polynomial and rational inequalities. </p> </li>
+    </ul>
+  </p>
+
+  <p> We solved quadratic inequalities by finding the <fillin/> of the quadratic function and then do a <fillin/> to test where the functions is <fillin/> and <fillin/>. </p>
+  <p> To solve higher order polynomial inequalities, we have more factors, but the same process. </p>
+  <p>  We <fillin/> the polynomial to find the <fillin/>, then do a <fillin/> <fillin/> to test where the function is <fillin/> and <fillin/>. </p>
+
+  <example> 
+    <ol>
+    <li> <p> Solve <m>x^{3}+4 x \geq 5 x^{2}</m>. Write your answer in interval notation. </p> </li>
+    <li> <p> Solve <m>4 x^{2}+10 x \lt 2 x^{3}+20</m>. Write the answer in interval notation. </p> </li>
+    </ol>
+  </example>
+
+  <activity>
+    <p> Solve the following inequalities. Write your answers in interval notation. </p>
+    <ol>
+      <li> <p> <m>-x^{3}\gt x^{4}-6 x^{2}. </m> </p>  </li>
+      <li> <p> <m> x^{4}-14 x^{2} \geq-40. </m> </p> </li>
+    </ol>
+  </activity>
+
+  <remark>
+    <p> We can solve rational inequalities similarly, however, sign changes can also occur at their <fillin/> as well. </p>
+    <p> We find the <fillin/> and the <fillin/> and <fillin/> of the rational function and then do a <fillin/> <fillin/> to test where the function positive and negative. </p>
+  </remark>
+
+  <example>
+    <ol>
+      <li>  <p> Solve the inequality <m>\dfrac{x^{2}-9}{x^{2}-3 x+2} \geq 0</m>. Write the answer in interval notation. </p>  </li>
+      <li>  <p> Find all values of <m>x</m> for which the graph of <m>f(x)=\dfrac{1}{x-2}</m> lies above the graph of <m>g(x)=\dfrac{1}{2 x+1}</m>. Write your answer in interval notation. </p>  </li>
+    </ol>
+  </example>
+
+  <activity>
+    <p> Solve the following rational inequalities. Write your answers in interval notation. </p>
+    <ol>
+      <li> <p> <m> \dfrac{4 x^{2}-1}{x^{3}-16 x}\lt 0 </m> </p>  </li>
+      <li> <p> <m> \dfrac{1}{x-3} \leq \dfrac{x}{2 x^{2}-7 x+3} </m> </p> </li>
+    </ol>
+  </activity>
+
+
+</section>
+  
